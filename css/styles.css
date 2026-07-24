@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: azure;
+    background-color: rgb(243, 226, 200);
     color: darkred;
     line-height: 1.5;
 }
@@ -75,6 +75,7 @@ ul {
     align-items: center;
     gap: var(--space-md);
 }
+
 /* Estilo logo */
 .logo {
     margin: 0;
@@ -95,3 +96,154 @@ ul {
 }
 
 /* Estado enlaces */
+
+.menu a:hover {
+    color: var(--color-primary);
+}
+
+.hero {
+    padding: var(--space-xl) 0;
+}
+
+.hero h2 {
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+    font-size: 1.5rem;
+    max-width: 700px;
+    color: var(--color-primary-dark);
+}
+
+.hero p {
+    margin-top: 0;
+    margin-bottom: var(--space-md);
+    max-width: 680px;
+    color: var(--color-text-soft);
+    font-size: 1.1rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.services {
+    padding: var(--space-lg) 0;
+}
+
+.services h2 {
+    margin-top: 0;
+    margin-bottom: var(--space-md);
+}
+
+.services-card {
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    margin-bottom: var(--space-md);
+    box-shadow: var(--shadow-soft);
+}
+
+.services-card h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+    color: var(--color-primary-dark);
+}
+
+.services-card p {
+    margin: 0;
+    color: var(--color-text-soft);
+}
+
+.contacto {
+    padding: var(--space-lg) 0 var(--space-xl);
+}
+
+.contacto h2 {
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+}
+
+.contacto p {
+    margin-top: 0;
+    margin-bottom: var(--space-md);
+    color: var(--color-text-soft);
+}
+
+form {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-soft);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+}
+
+form div {
+    margin-bottom: var var(--space-md);
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font: inherit;
+}
+
+small {
+    display: block;
+    margin-top: var(--space-xs);
+    color: var(--color-text-soft);
+}
+
+button {
+    background-color: var(--color-accent);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--radius-sm);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ea580c;
+}
+
+.feature-card {
+    position: relative;
+}
+
+.badge {
+    position:absolute;
+    top: 16px;
+    right: 16px;
+    background-color: var(--color-accent);
+    color: white;
+    padding: 6px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
