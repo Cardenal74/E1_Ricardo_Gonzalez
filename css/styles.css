@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(243, 226, 200);
     color: darkred;
@@ -73,7 +73,7 @@ ul {
 
 .site-header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
     align-items: center;
     gap: var(--space-md);
 }
@@ -114,6 +114,7 @@ ul {
     max-width: 700px;
     color: var(--color-primary-dark);
 }
+
 
 .hero p {
     margin-top: 0;
